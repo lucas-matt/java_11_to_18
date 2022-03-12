@@ -7,6 +7,16 @@
   <version>1.0-SNAPSHOT</version>
   <name>java14</name>
   <url>http://maven.apache.org</url>
+  <properties>
+    <maven.compiler.source>14</maven.compiler.source>
+    <maven.compiler.target>14</maven.compiler.target>
+  </properties>
+  <parent>
+    <groupId>com.notmattlucas</groupId>
+    <artifactId>java11_to_18</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
